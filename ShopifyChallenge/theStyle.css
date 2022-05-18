@@ -1,0 +1,51 @@
+body{
+    background-color: crimson;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("Montserrat-Bold.ttf");
+}
+
+.title{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FFCCB0;
+    font-family: Montserrat-Bold;
+    font-size: xxx-large;
+    text-decoration:overline;
+    text-decoration-color: white;
+}
+
+.titleResponses{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 130vh;
+    color: #FFCCB0;
+    font-family: Montserrat-Bold;
+    font-size: xxx-large;
+    text-decoration:overline;
+    text-decoration-color: white;
+}
+
+#textbox{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 10vh;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-size: x-large;
+}
+
+#submitButton{
+    position: absolute;
+    margin-top: 29em;
+    margin-left: 25.5em;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+    font-size: x-large;
+    background-color: white;
+    color: crimson;
+    cursor: pointer;
+}
