@@ -43,9 +43,19 @@ body{
     margin-top: 29em;
     margin-left: 25.5em;
     border-radius: 5px;
+    border-color: white;
     font-family: Georgia, serif;
     font-size: x-large;
     background-color: white;
     color: crimson;
     cursor: pointer;
+}
+
+#box{
+    display: none;
+    background-color: #FFCCB0 ;
+    border-radius: 5px;
+    width: 80vh;
+    height: 35vh;
+    position: absolute;
 }
